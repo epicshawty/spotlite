@@ -9,8 +9,8 @@ Native Rust, no Electron, no webview, no server.
 <a href="https://github.com/epicshawty/spotlite/releases/latest"><img src="docs/hero.png" width="820" alt="Spotlite setup screen"></a>
 
 [![CI](https://github.com/epicshawty/spotlite/actions/workflows/ci.yml/badge.svg)](https://github.com/epicshawty/spotlite/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/epicshawty/spotlite?color=1DB954&style=flat-square)](https://github.com/epicshawty/spotlite/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/epicshawty/spotlite/total?color=1DB954&style=flat-square)](https://github.com/epicshawty/spotlite/releases)
+[![Release](https://img.shields.io/github/v/release/epicshawty/spotlite?color=1DB954&style=flat-square&cache=2)](https://github.com/epicshawty/spotlite/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/epicshawty/spotlite/total?color=1DB954&style=flat-square&cache=2)](https://github.com/epicshawty/spotlite/releases)
 
 [![License](https://img.shields.io/badge/license-AGPL--3.0--or--later-1DB954?style=flat-square)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-stable-000000?style=flat-square&logo=rust)](https://www.rust-lang.org)
