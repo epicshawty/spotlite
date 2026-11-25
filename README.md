@@ -2,7 +2,7 @@
 
 # Spotlite
 
-**A 6.4 MB Spotify frontend for Windows. Audio is Spotify Connect, so lossless works.**
+**A 6 MB Spotify frontend for Windows. Audio is Spotify Connect, so lossless works.**
 
 Native Rust, no Electron, no webview, no server.
 
@@ -15,7 +15,7 @@ Native Rust, no Electron, no webview, no server.
 [![License](https://img.shields.io/badge/license-AGPL--3.0--or--later-1DB954?style=flat-square)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-stable-000000?style=flat-square&logo=rust)](https://www.rust-lang.org)
 [![Platform](https://img.shields.io/badge/platform-windows%20x64-0078D6?style=flat-square&logo=windows)](https://github.com/epicshawty/spotlite/releases/latest)
-[![Size](https://img.shields.io/badge/one%20exe-6.4%20MB-1DB954?style=flat-square)](https://github.com/epicshawty/spotlite/releases/latest)
+[![Size](https://img.shields.io/badge/one%20exe-6%20MB-1DB954?style=flat-square)](https://github.com/epicshawty/spotlite/releases/latest)
 
 **[Download](https://github.com/epicshawty/spotlite/releases/latest)** · **[Setup](#setup)** · **[Build](#build)**
 
