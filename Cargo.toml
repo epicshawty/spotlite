@@ -1,0 +1,30 @@
+[package]
+name = "spotlite"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+description = "A 6 MB native Spotify frontend for Windows, powered by Spotify Connect"
+repository = "https://github.com/epicshawty/spotlite"
+homepage = "https://github.com/epicshawty/spotlite"
+readme = "README.md"
+keywords = ["spotify", "music", "gui", "windows", "egui"]
+categories = ["gui", "multimedia::audio"]
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = ["glow", "default_fonts"] }
+egui = "0.37"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", features = ["json", "tls"] }
+base64 = "0.22"
+sha2 = "0.10"
+getrandom = "0.2"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+tungstenite = "0.24"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
